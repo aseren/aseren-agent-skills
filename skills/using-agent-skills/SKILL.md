@@ -37,8 +37,12 @@ Task arrives
     ├── CI/CD pipeline work? ──────────→ ci-cd-and-automation
     ├── Deprecating/migrating? ────────→ deprecation-and-migration
     ├── Writing docs/ADRs? ───────────→ documentation-and-adrs
+<<<<<<< HEAD
     ├── Adding logs/metrics/alerts? ───→ observability-and-instrumentation
     └── Deploying/launching? ─────────→ shipping-and-launch
+=======
+    └── Deploying/launching? ─────────→ shipping-and-launch-check
+>>>>>>> c5b1461 (Renamed ship to shipping-check)
 ```
 
 ## Core Operating Behaviors
@@ -131,7 +135,7 @@ These are the subtle errors that look like productivity but create problems:
 
 2. **Skills are workflows, not suggestions.** Follow the steps in order. Don't skip verification steps.
 
-3. **Multiple skills can apply.** A feature implementation might involve `idea-refine` → `spec-driven-development` → `planning-and-task-breakdown` → `incremental-implementation` → `test-driven-development` → `code-review-and-quality` → `code-simplification` → `shipping-and-launch` in sequence.
+3. **Multiple skills can apply.** A feature implementation might involve `idea-refine` → `spec-driven-development` → `planning-and-task-breakdown` → `incremental-implementation` → `test-driven-development` → `code-review-and-quality` → `code-simplification` → `shipping-and-launch-check` in sequence.
 
 4. **When in doubt, start with a spec.** If the task is non-trivial and there's no spec, begin with `spec-driven-development`.
 
@@ -155,7 +159,7 @@ For a complete feature, the typical skill sequence is:
 13. git-workflow-and-versioning → Clean commit history
 14. documentation-and-adrs      → Document decisions
 15. deprecation-and-migration   → Retire old systems and move users safely when needed
-16. shipping-and-launch         → Deploy safely
+16. shipping-and-launch-check   → Deploy safely
 ```
 
 Not every task needs every skill. A bug fix might only need: `debugging-and-error-recovery` → `test-driven-development` → `code-review-and-quality`.
@@ -186,4 +190,4 @@ Not every task needs every skill. A bug fix might only need: `debugging-and-erro
 | Ship | deprecation-and-migration | Remove old systems and migrate users safely |
 | Ship | documentation-and-adrs | Document the why, not just the what |
 | Ship | observability-and-instrumentation | Structured logs, RED metrics, traces, symptom-based alerts |
-| Ship | shipping-and-launch | Pre-launch checklist, monitoring, rollback plan |
+| Ship | shipping-and-launch-check | Pre-launch checklist, monitoring, rollback plan |
