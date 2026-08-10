@@ -18,7 +18,7 @@
     "negative": [
       {
         "prompt": "Deploy this to production now",
-        "owner": "shipping-and-launch"
+        "owner": "shipping-and-launch-check"
       },
       {
         "prompt": "Write a failing test for the bug before fixing it",

@@ -22,7 +22,7 @@
       },
       {
         "prompt": "Deploy the current build to staging",
-        "owner": "shipping-and-launch"
+        "owner": "shipping-and-launch-check"
       }
     ]
   },
