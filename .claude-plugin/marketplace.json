@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "agent-skills",
-      "version": "0.6.7",
+      "version": "0.6.6",
       "source": {
         "source": "github",
         "repo": "aseren/aseren-agent-skills"
